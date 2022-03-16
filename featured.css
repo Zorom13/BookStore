@@ -1,0 +1,180 @@
+
+
+.featured .featured-slider .content .btn{
+    margin: 1rem;
+    display: inline-block;
+    padding: .5rem 1.8rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: #6A8DA0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.featured .featured-slider .content .btn:hover{
+    background-color: #202c32;
+}
+
+.btn{
+    border: 1px solid #202c32;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 14px 50px;
+    background: transition;
+    font-weight: 100;
+    color: #202c32;
+    cursor: pointer;
+}
+
+.featured
+.pre-btn,
+.ntx-btn{
+    border: none;
+    width: 5vw;
+    font-size: 2rem;
+    position: absolute;
+    top: -200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(225,225,225,0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 9;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    left: 2rem;
+}
+
+/* .featured .pre-btn{
+    left: 0;
+    transform: translateX(2rem);
+} */
+
+.featured .ntx-btn{
+    right: 0;
+}
+
+.featured .pre-btn i,
+.ntx-btn i{
+    opacity: 0.2;
+}
+
+
+.featured .pre-btn:hover i,
+.ntx-btn:hover i{
+    opacity: 1;
+}
+
+.featured .featured-slider{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.featured .featured-slider::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.featured .featured-slider .box-book{
+    width: 15rem;
+    margin: 2rem 0;
+    position: relative;
+    overflow: hidden;
+    border: .05rem solid #202c325e;
+    text-align: center;
+    background-color: #6a8da0;
+}
+
+.featured .featured-slider .box-book:hover{
+    border: 1px solid #202c32;   
+}
+
+
+
+.featured .featured-slider .box-book .image{
+    padding: 2rem;
+    background: linear-gradient(30deg, rgb(243, 183, 94) 15%, #fff 30.5%);
+}
+
+.featured .featured-slider .box-book:hover .image{
+    transform: translateY(6%);
+
+}
+
+.featured .featured-slider .box-book .image .discount-tag{
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #165372;
+    right: 10px;
+    top: 50px;
+    text-transform: capitalize;
+
+}
+
+.featured .featured-slider .box-book .image img{
+    height: 15rem;
+    margin: .56rem 0
+}
+
+.featured .featured-slider .box-book .icons{
+    border-bottom: 1px solid #202c32;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #6a8da0;;
+    z-index: 1;
+    transform: translateY(-100%);
+}
+
+.featured .featured-slider .box-book:hover .icons{
+    transform: translateY(0%);
+}
+
+.featured .featured-slider .box-book .icons a{
+    color: #202c32;
+    font-size: 1rem;
+    padding: .6rem ; 
+    text-decoration: none;
+}
+
+.featured .featured-slider .box-book .icons a:hover{
+    background:#fff 
+}
+
+.featured .featured-slider .box-book .content{
+    background: #eee;
+    /* padding: 0rem; */
+}
+
+.featured .featured-slider .box-book .content .h3{
+    font-size: 1rem;
+    color: #202c32;
+}
+
+.featured .featured-slider .box-book .content .price{
+    font-size: 1.4rem;
+    color: #202c32;
+    padding-top: .2rem;
+}
+
+.featured .featured-slider .box-book .content .price .actual-price{
+    font-size: 1.2rem;
+    color: #6a8da0;
+    text-decoration: line-through;
+}
+
+/* .featured-slider{
+    position: relative;
+} */

@@ -1,0 +1,75 @@
+.SignUp-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgba(255, 255, 255, 0.925); */
+    background-image: url(img/Background/Background3.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.SignUp-form-container form{
+    background: #d2ccd1b6; 
+    border: .5rem solid #cdd7dba8;
+    width: 40rem;
+    padding: 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.9);
+    border-radius: 1.5rem;
+    margin-top: -5%;
+    text-align: center;
+}
+
+.SignUp-form-container button:hover{
+    color: rgb(252, 252, 252);
+}
+
+
+.SignUp-form-container form input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid #6a8da0;
+    background: transparent;
+}
+
+.SignUp-form-container button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #6a8da0;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.SignUp-form-container h1{
+    margin-bottom: 30px;
+}
+
+.SignUp-form-container #close-signup-btn{
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 2rem;
+    color: #202c32;
+    cursor: pointer;
+}
+
+.SignUp-form-container p{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+}

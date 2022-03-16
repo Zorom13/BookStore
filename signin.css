@@ -1,0 +1,73 @@
+.Signin-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgba(255, 255, 255, 0.925); */
+    background-image: url(img/Background/Background3.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+
+.Signin-form-container form{
+    background: #d2ccd1b6; 
+    border: .5rem solid #cdd7dba8;
+    width: 40rem;
+    padding: 3rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.9);
+    border-radius: 1.5rem;
+    margin-top: -5%;
+    text-align: center;
+    
+}
+
+.Signin-form-container form .form-mail-password input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid #6a8da0;
+    background: transparent;
+}
+
+.Signin-form-container form .form-check{
+    display: flex;
+    flex: space-between;
+}
+
+.Signin-form-container form .form-check label{
+    margin-left: .5rem;
+}
+
+.Signin-form-container button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #6a8da0;
+    border: none;
+    outline: none;
+    margin: 30px 0 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.Signin-form-container button:hover{
+    color: #fff;
+}
+
+
+.Signin-form-container #close-signin-btn{
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 2rem;
+    color: #202c32;
+    cursor: pointer;
+}
